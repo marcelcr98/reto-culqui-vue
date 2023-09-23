@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
 const routes: RouteRecordRaw[] = [
+
+  
   {
     path: "/",
     alias: "/token",
-    name: "token-form",
+    name: "token",
     component: () => import("../components/TokenForm.vue"),
   },
 ];
