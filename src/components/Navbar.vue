@@ -14,6 +14,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <router-link style="color: rgb(224, 199, 251)" class="nav-link" to="/tokens">Datos de Tarjeta</router-link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

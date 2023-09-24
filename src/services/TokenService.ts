@@ -7,5 +7,5 @@ export const getTokens = async (): Promise<AxiosResponse<Token[]>> =>
 
 
 export const createToken = async (token: Token): Promise<AxiosResponse> =>
-  await axios.post("/tokens", token);
+  await axios.post("/token", token);
 

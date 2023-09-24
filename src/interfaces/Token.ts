@@ -1,7 +1,7 @@
 export interface Token {
-    card_number: number;
-    cvv: number;
-    expiration_month: number; 
-    expiration_year: number; 
+    card_number: string;
+    cvv: string;
+    expiration_month: string; 
+    expiration_year: string; 
     email: string;
   }
