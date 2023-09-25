@@ -19,22 +19,6 @@
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" style="height: 38px">
-                <i class="fas fa-envelope" style="font-size: 16px"></i>
-              </span>
-            </div>
-            <input
-              class="form-control"
-              placeholder="Correo"
-              type="email"
-              autofocus
-              v-model="card.email"
-              style="height: 38px"
-            />
-          </div>
-
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" style="height: 38px">
                 <i class="fas fa-credit-card" style="font-size: 15px"></i>
               </span>
             </div>
@@ -95,6 +79,22 @@
               type="text"
               autofocus
               v-model="card.expiration_year"
+              style="height: 38px"
+            />
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" style="height: 38px">
+                <i class="fas fa-envelope" style="font-size: 16px"></i>
+              </span>
+            </div>
+            <input
+              class="form-control"
+              placeholder="Correo"
+              type="email"
+              autofocus
+              v-model="card.email"
               style="height: 38px"
             />
           </div>
