@@ -7,6 +7,13 @@ const routes: RouteRecordRaw[] = [
     name: "token",
     component: () => import("../components/TokenForm.vue"),
   },
+
+  {
+    path: "/",
+    alias: "/token/details",
+    name: "token-list",
+    component: () => import("../components/TokenList.vue"),
+  },
 ];
 
 console.log(process.env.BASE_URL);

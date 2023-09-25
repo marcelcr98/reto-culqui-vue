@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/js/all.js'
 
 import 'bootswatch/dist/pulse/bootstrap.min.css'
 
+
 createApp(App)
   .use(router)
   .mount("#app");

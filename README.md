@@ -1,12 +1,12 @@
 # reto-culqui-card-token
 
-
-## Instalar las dependencias del servidor (Backend)
+### Nota: Colocar las credenciales para la BD Postgres y Redis
+### Instalar las dependencias del servidor (Backend)
 ```
 npm install --prefix server
 ```
 
-## Instalar las dependencias del cliente (Frontend)
+### Instalar las dependencias del cliente (Frontend)
 ```
 npm install
 ```

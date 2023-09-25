@@ -16,7 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <router-link style="color: rgb(224, 199, 251)" class="nav-link" to="/tokens">Datos de Tarjeta</router-link>
+              <router-link style="color: rgb(224, 199, 251)" class="nav-link" to="/token">Registrar Tarjeta</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link style="color: rgb(224, 199, 251)" class="nav-link" to="/token/details">Datos de Tarjeta</router-link>
             </li>
           </ul>
         </div>
